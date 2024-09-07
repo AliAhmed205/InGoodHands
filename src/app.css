@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --IYH-color: #ff618e; 
+  --IYH-color-focus-hover: #ff2d69; 
+  --logo-font: "Love Ya Like A Sister", cursive;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,7 +26,245 @@ span {
   font-weight: inherit;
 }
 
-.bgGrid {
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, magenta 1px, transparent 1px), linear-gradient(to bottom, magenta 1px, transparent 1px);
+body {
+  background-color: white;
+}
+
+/*******************/
+/* BUTTON STYLING  */
+/*******************/
+
+button, 
+.button {
+  border-radius: 8px;
+  border: solid 1px transparent;
+  padding:  0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+
+  }
+
+button:hover {
+  background-color: var(--IYH-color-focus-hover);
+  color: white;
+}
+
+button:focus,
+button:focus-visible {
+  background-color: var(--IYH-color-focus-hover);
+  color: white;
+}
+
+.specialBtn {
+  background-color: var(--IYH-color);
+  font-size: 1.2rem;
+}
+
+.specialBtn i {
+  font-size: 1.5rem;
+  margin-right: .5rem;
+}
+
+.specialBtnDark {
+  background: var(--IYH-color-focus-hover);
+  color: white;
+}
+
+
+/*****************/
+/* Main - Header */
+/*****************/
+
+.main-header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 2rem 5rem;
+  position: fixed;
+  z-index: 1; 
+
+}
+
+.main-header h1 {
+  font-size: 3.5rem;
+  font-family: var(--logo-font);
+  animation: fadeIn 1s 3s backwards, slideRight 2s 3s forwards;
+  opacity: 1;
+  transition: .2s;
+}
+
+
+.main-header h1 span {
+  color: var(--IYH-color);
+  animation: colorChange 3s 1s forwards;
+}
+
+.main-header h1 i {
+  color: var(--IYH-color);
+  animation: colorChange 3s 1s forwards;
+  transition: .2s;
+}
+
+.main-header h1:focus-visible, 
+.main-header h1:focus,
+.main-header h1:hover {
+  letter-spacing: -.3rem;
+
+  i {
+    rotate: 20deg;
+  }
+}
+
+.main-header nav {
+  margin-left: auto;
+  animation: fadeIn 1s 3s backwards, slideLeft 2s 3s forwards;
+}
+
+.main-header nav ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.main-header nav ul li {
+  height: fit-content;
+}
+
+.main-header nav ul li a {
+  transition: .2s;
+  font-size: 1.2em;
+}
+
+.main-header nav ul li a:hover,   
+.main-header nav ul li a:focus,   
+.main-header nav ul li a:focus-visible  {
+  color: var(--IYH-color-focus-hover);
+}
+
+/* HOMEPAGE MAIN SECTION */
+
+.homepage-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  height: 100lvh;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100lvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 500px;
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  z-index: -1;
+  top: 0;
+  background-image: url("./images/morereddish.png");
+  animation: backgroundAnimation 4s 4s forwards;
+  opacity: .8;
+}
+
+.slogan {
+  font-size: 8rem;
+  line-height: 8rem;
+  max-width: 1200px;
+  text-align: center;
+  user-select: none;
+  animation: fadeIn 1s 2s backwards;
+  opacity: 1;
+}
+
+.slogan span {
+  color: black;
+  animation: colorChange 1s 3s forwards;
+}
+
+#live-chat {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  aspect-ratio: 1/1;
+  width: 5rem;
+  background-color: var(--IYH-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  animation: fadeIn 1s 5s backwards;
+  opacity: 1;
+}
+
+#live-chat::before {
+  content: "";
+  width: 1.3rem;
+  position: absolute;
+  background-color: rgb(111, 238, 91);
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  top: -4px;
+  right: 0;
+}
+
+
+#live-chat i {
+  color: white;
+  font-size: 2rem;
+}
+
+@keyframes colorChange {
+  from {
+    color: black;
+  }
+  to {
+    color: var(--IYH-color);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-30px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(30px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes backgroundAnimation {
+  from {
+    background-position: 0 500px;
+  }
+
+  to {
+    background-position: 0 0;
+  }
 }
