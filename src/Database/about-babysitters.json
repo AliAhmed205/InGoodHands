@@ -1,0 +1,578 @@
+[{
+  "naam": "Sanne Jansen",
+  "locatie": "Amsterdam",
+  "uurtarief": 12.5,
+  "totaalAantalReviews": 24,
+  "gemiddeldeReviewScore": 4.8,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": true,
+      "avond": false
+    },
+    "woensdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": true,
+      "avond": false
+    }
+  },
+  "overMij": ["Ervaren met baby's en peuters", "Creatief met knutselactiviteiten", "Tweetalig (Nederlands en Engels)"],
+  "opleidingen": ["Kinderopvang (MBO)", "EHBO voor kinderen"],
+  "recenteReview": {
+    "datum": "2023-10-12",
+    "sterren": 5,
+    "text": "Sanne was geweldig met onze dochter! Heel geduldig en professioneel."
+  }
+},
+{
+  "naam": "Max de Vries",
+  "locatie": "Rotterdam",
+  "uurtarief": 10.0,
+  "totaalAantalReviews": 15,
+  "gemiddeldeReviewScore": 4.5,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    }
+  },
+  "overMij": ["Actief en sportief", "Veel ervaring met buitenspelletjes", "Behulpzaam bij huiswerk"],
+  "opleidingen": ["Sport en Bewegen (MBO)", "EHBO-certificaat"],
+  "recenteReview": {
+    "datum": "2023-09-22",
+    "sterren": 4,
+    "text": "Onze kinderen hadden een super leuke dag met Max, zeker aan te raden!"
+  }
+},
+{
+  "naam": "Lotte Bakker",
+  "locatie": "Utrecht",
+  "uurtarief": 14.0,
+  "totaalAantalReviews": 30,
+  "gemiddeldeReviewScore": 4.9,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "donderdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    }
+  },
+  "overMij": ["Geduldig en betrouwbaar", "Specialist in gezonde snacks maken", "Goed met peuters en kleuters"],
+  "opleidingen": ["Pedagogiek (HBO)", "Kinder-EHBO"],
+  "recenteReview": {
+    "datum": "2023-10-05",
+    "sterren": 5,
+    "text": "Lotte is een geweldige oppas! Onze kinderen kijken uit naar de volgende keer."
+  }
+},
+{
+  "naam": "Xiao Nan Pols",
+  "locatie": "Hoorn",
+  "uurtarief": 20.0,
+  "totaalAantalReviews": 18,
+  "gemiddeldeReviewScore": 4.6,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": true
+    },
+    "vrijdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": false
+    },
+    "zaterdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "zondag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    }
+  },
+  "overMij": ["Rustig en betrouwbaar", "Helpt graag met huiswerk", "Tweetalig (Nederlands en Mandarijn Chinees)"],
+  "opleidingen": ["Onderwijsassistent (HBO)", "Basiscursus EHBO"],
+  "recenteReview": {
+    "datum": "2023-08-30",
+    "sterren": 4,
+    "text": "Xiao was geweldig met de kinderen en erg behulpzaam. Zeker een aanrader!"
+  }
+},
+{
+  "naam": "Eva de Jong",
+  "locatie": "Eindhoven",
+  "uurtarief": 13.5,
+  "totaalAantalReviews": 22,
+  "gemiddeldeReviewScore": 4.7,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": true
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    }
+  },    "overMij": ["Creatief en vriendelijk", "Organiseert leuke knutselactiviteiten", "Goede communicator"],
+  "opleidingen": ["Sociaal Pedagogisch Werk (MBO)", "Kinderpsychologie (cursus)"],
+  "recenteReview": {
+    "datum": "2023-10-15",
+    "sterren": 5,
+    "text": "Eva is super vriendelijk en zorgzaam, onze kinderen hebben genoten!"
+  }
+},
+{
+  "naam": "Daan Peters",
+  "locatie": "Breda",
+  "uurtarief": 9.5,
+  "totaalAantalReviews": 12,
+  "gemiddeldeReviewScore": 4.4,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "dinsdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": false
+    }
+  },    "overMij": ["Energieke spelletjes en buitenspelen", "Groot verantwoordelijkheidsgevoel", "Goed met oudere kinderen"],
+  "opleidingen": ["Pedagogisch Medewerker (MBO)", "EHBO voor kinderen"],
+  "recenteReview": {
+    "datum": "2023-09-18",
+    "sterren": 4,
+    "text": "Daan deed het prima met onze zoon, erg leuk en enthousiast."
+  }
+},
+{
+  "naam": "Sofia Bos",
+  "locatie": "Tilburg",
+  "uurtarief": 12.0,
+  "totaalAantalReviews": 20,
+  "gemiddeldeReviewScore": 4.8,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "donderdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    }
+  },
+  "overMij": ["Goed met kleuters", "Zorgzaam en geduldig", "Tweetalig (Nederlands en Spaans)"],
+  "opleidingen": ["Pedagogiek (HBO)", "Basiscursus Kinderopvang"],
+  "recenteReview": {
+    "datum": "2023-09-05",
+    "sterren": 5,
+    "text": "Sofia is zo lief en geduldig! Onze dochter vond het superleuk."
+  }
+},
+{
+  "naam": "Lucas Verhoeven",
+  "locatie": "Amersfoort",
+  "uurtarief": 10.5,
+  "totaalAantalReviews": 14,
+  "gemiddeldeReviewScore": 4.5,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "vrijdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": false
+    },
+    "zaterdag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "zondag": {
+      "ochtend": false,
+      "middag": false,
+      "namiddag": true,
+      "avond": true
+    }
+  },    "overMij": ["Helpt graag met huiswerk", "Veel ervaring met jonge kinderen", "Groot verantwoordelijkheidsgevoel"],
+  "opleidingen": ["Basisonderwijs (HBO)", "EHBO voor kinderen"],
+  "recenteReview": {
+    "datum": "2023-10-01",
+    "sterren": 4,
+    "text": "Lucas was betrouwbaar en goed met onze zoon, een fijne ervaring!"
+  }
+},
+{
+  "naam": "Emma Visser",
+  "locatie": "Groningen",
+  "uurtarief": 11.5,
+  "totaalAantalReviews": 19,
+  "gemiddeldeReviewScore": 4.6,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": false,
+      "avond": false
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    },
+    "woensdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "donderdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "vrijdag": {
+      "ochtend": false,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": false,
+      "namiddag": false,
+      "avond": false
+    }
+  },
+  "overMij": ["Geduldig en vriendelijk", "Creatief met knutselen", "Geduldig met peuters"],
+  "opleidingen": ["Maatschappelijk Werk (HBO)", "Kinder-EHBO"],
+  "recenteReview": {
+    "datum": "2023-10-08",
+    "sterren": 5,
+    "text": "Emma is heel geduldig en zorgzaam, de kinderen vonden haar geweldig!"
+  }
+},
+{
+  "naam": "Noah Mulder",
+  "locatie": "Zwolle",
+  "uurtarief": 10.0,
+  "totaalAantalReviews": 13,
+  "gemiddeldeReviewScore": 4.3,
+  "beschikbaarheid": {
+    "maandag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "dinsdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "woensdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "donderdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "vrijdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zaterdag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    },
+    "zondag": {
+      "ochtend": true,
+      "middag": true,
+      "namiddag": true,
+      "avond": true
+    }
+  },
+  "overMij": ["Energiek en speels", "Sportief en actief", "Goed met kinderen van alle leeftijden"],
+  "opleidingen": ["Sport en Bewegen (MBO)", "Basiscursus Kinderopvang"],
+  "recenteReview": {
+    "datum": "2023-09-28",
+    "sterren": 4,
+    "text": "Noah was leuk en actief, precies wat onze zoon nodig had!"
+  }
+}
+]
