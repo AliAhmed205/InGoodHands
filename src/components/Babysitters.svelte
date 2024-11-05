@@ -1,17 +1,36 @@
 <script>
+  import { onMount } from "svelte";
+  let babysittersList = [];
 
+  onMount(async () => {
+    fetch("./src/Database/about-babysitters.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok" + response.statusText);
+        }
+        return response.json();
+      })
+
+      .then((data) => {
+        babysittersList = data;
+      })
+      .catch((error) => {
+        console.error(
+          "Er was een probleem met het ophalen van de data:",
+          error
+        );
+      });
+  });
 </script>
+
 <section>
-  <ul class="about-us">
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-  </ul>
+  {#if babysittersList.length > 0}
+    <ul class="about-us">
+      {#each babysittersList as babysitter}
+        <li><a href="#">{babysitter.naam}</a></li>
+      {/each}
+    </ul>
+  {:else}
+    <p>Geen babysitters gevonden</p>
+  {/if}
 </section>
