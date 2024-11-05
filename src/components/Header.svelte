@@ -49,7 +49,7 @@
         <a href="#FAQ-id">FAQ</a>
       </li>
       <li>
-        <a href="#" class="CTA"
+        <a href="#the-babysitters" class="CTA"
           ><i class="fa-solid fa-baby"></i> Book a babysitter</a
         >
       </li>
@@ -80,7 +80,7 @@
       </li>
       <hr />
       <li>
-        <a href="#" class="CTA">Book a babysitter</a>
+        <a href="#the-babysitters" class="CTA">Book a babysitter</a>
       </li>
       <hr />
     </ul>

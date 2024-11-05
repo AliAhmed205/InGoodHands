@@ -10,8 +10,8 @@
 <main>
   <HomepageSection /> 
   <About />
-  <Reviews />
   <Babysitters/>
+  <Reviews />
   <FAQ /> 
   <Form />
 </main>

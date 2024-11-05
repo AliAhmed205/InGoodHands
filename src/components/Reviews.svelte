@@ -14,7 +14,6 @@
     const cancelReviewButton = document.getElementById("close");
     const submitReviewButton = document.getElementById("post");
 
-    // Haal de bestaande reviews op vanuit het JSON-bestand
     try {
       const response = await fetch('https://raw.githubusercontent.com/AliAhmed205/sourceOefening/refs/heads/main/InGoodHands/babysitter.json');
       if (!response.ok) {
@@ -22,11 +21,9 @@
       }
       const data = await response.json();
 
-      // Controleer of de babysitter_service en reviews bestaan
       if (data.babysitter_service && data.babysitter_service.reviews) {
         const reviews = data.babysitter_service.reviews;
         
-        // Voeg de bestaande reviews toe aan de lijst
         reviews.forEach(function(review) {
           const newReviewElement = document.createElement("li");
           newReviewElement.classList.add("review-item");
@@ -34,7 +31,6 @@
           const fullStars = '<i class="fa-solid fa-star"></i>'.repeat(review.sterren);
           const emptyStars = '<i class="fa-regular fa-star"></i>'.repeat(5 - review.sterren);
 
-          // Gebruik de datum uit de JSON zoals deze is
           const currentDate = review.datum;
 
           newReviewElement.innerHTML = `
@@ -52,8 +48,7 @@
       console.error('Error fetching reviews:', error);
     }
 
-    // Open de review-form
-    addReviewButton.addEventListener("click", function() {
+    addReviewButton.addEventListener("click", ()=> {
       reviewContainerElement.style.display = "flex";
       reviewFormElement.style.display = "block";
       setTimeout(function() {
@@ -62,14 +57,12 @@
       }, 10);
     });
 
-    // Update character count tijdens typen in textarea
-    textareaElement.addEventListener("input", function() {
+    textareaElement.addEventListener("input", ()=> {
       const currentLength = textareaElement.value.length;
       characterCountElement.textContent = currentLength + "/135 characters used";
     });
 
-    // Sluit de review-form met fade-out effect
-    cancelReviewButton.addEventListener("click", function() {
+    cancelReviewButton.addEventListener("click", ()=> {
       reviewContainerElement.classList.remove("active");
       reviewFormElement.classList.remove("active");
 
@@ -79,22 +72,19 @@
       }, 500);
     });
 
-    // Verwerk het verzenden van een nieuwe review
-    submitReviewButton.addEventListener("click", function() {
+    submitReviewButton.addEventListener("click", ()=> {
       const firstName = reviewFormElement.querySelector('input[placeholder="Aaron"]').value;
       const lastName = reviewFormElement.querySelector('input[placeholder="Berend"]').value;
       const commentary = reviewFormElement.querySelector("#textarea-id").value;
       const rating = reviewFormElement.querySelector('input[name="rating"]:checked')?.value || "No rating";
 
       if (firstName !== "" && lastName !== "" && commentary !== "" && rating !== "No rating") {
-        // Genereer huidige datum in dd/mm/jjjj formaat
         const currentDate = new Date().toLocaleDateString("nl-NL", {
           day: "2-digit",
           month: "2-digit",
           year: "numeric"
         });
 
-        // Maak een nieuw review-element aan
         const newReviewElement = document.createElement("li");
         newReviewElement.classList.add("review-item");
 
@@ -109,13 +99,10 @@
 
         newReviewElement.classList.add("appearFadeIn");
 
-        // Voeg de nieuwe review toe aan de lijst
         reviewListElement.appendChild(newReviewElement);
 
-        // Reset het formulier na het verzenden
         reviewFormElement.reset();
 
-        // Sluit het formulier met fade-out effect
         reviewContainerElement.classList.remove("active");
         reviewFormElement.classList.remove("active");
         setTimeout(function() {
@@ -131,17 +118,6 @@
       }
     });
   });
-
-  // Helper functie om sterren te genereren (voor eventueel gebruik)
-  function getStars(stars) {
-    return Array.from({ length: 5 }, function(value, index) {
-      if (index < stars) {
-        return "filled";
-      } else {
-        return "empty";
-      }
-    });
-  }
 </script>
 
 

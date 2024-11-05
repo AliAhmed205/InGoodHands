@@ -10,6 +10,7 @@ body {
 
 body.freeze {
   overflow: hidden;
+
 }
 
 :root {
@@ -300,6 +301,65 @@ main .about-section ul li:nth-of-type(4) a:hover {
 }
 
 
+.babysitter-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  & h2 {
+    color: var(--IYH-color);
+  }
+
+  & > p {
+    width: 50%;
+    margin: 1rem auto 2rem;
+  }
+
+  & .babysitter-list {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100vh;
+
+    & .about-us {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      height: fit-content;
+      white-space: nowrap;
+      justify-content: space-between;
+
+
+      & img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+      }
+
+      & h4 {
+        color: var(--IYH-color);
+      }
+
+      & p {
+        color: var(--IYH-black);
+
+        &:nth-of-type(2) {
+          font-weight: 600;
+        }
+
+        & i {
+          color: var(--IYH-stars);
+        }
+      }
+
+
+    }
+  }
+}
+
 
 main .FAQ-section {
   padding: 0 2rem;
@@ -402,15 +462,6 @@ main .form button:focus {
   color: white;
 }
 
-footer {
-  background-color: var(--IYH-black);
-  color: white;
-  padding: 1rem;
-  width: 100vw;
-}
-
-
-
 .adding-review {
   width: 100vw;
   height: 100vh;
@@ -462,7 +513,7 @@ footer {
   font-size: 1.1rem;
 }
 
-.review-form > label:first-of-type {
+.review-form>label:first-of-type {
   margin-top: 1rem;
 }
 
@@ -589,7 +640,7 @@ footer {
   text-align: center;
 }
 
-.review-container  > button {
+.review-container>button {
   padding: 2rem 2rem;
   background-color: var(--IYH-white);
   color: var(--IYH-color);
@@ -603,13 +654,13 @@ footer {
   transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.review-container > button:focus,
-.review-container > button:hover {
+.review-container>button:focus,
+.review-container>button:hover {
   background-color: var(--IYH-color);
   color: white;
 }
 
-.review-container > button span {
+.review-container>button span {
   font-size: 5rem;
   line-height: 3.5rem;
 }
@@ -646,6 +697,13 @@ footer {
   color: var(--IYH-black);
   opacity: .3;
   font-size: .8rem;
+}
+
+footer {
+  background-color: var(--IYH-black);
+  color: white;
+  padding: 1rem;
+  width: 100vw;
 }
 
 
@@ -754,7 +812,7 @@ footer {
 
   main .review-parent {
     padding-top: 11rem;
-}
+  }
 
 
   main .form {
@@ -836,9 +894,20 @@ footer {
     opacity: 0;
     scale: 1.1;
   }
+
   to {
     opacity: 1;
     scale: 1;
   }
-  
+
+}
+
+@keyframes slidingCarousel {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
