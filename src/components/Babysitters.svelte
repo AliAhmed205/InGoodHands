@@ -3,7 +3,7 @@
   let babysittersList = [];
 
   onMount(async () => {
-    fetch("./src/Database/about-babysitters.json")
+    fetch("https://raw.githubusercontent.com/AliAhmed205/InGoodHands/refs/heads/main/src/Database/about-babysitters.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok" + response.statusText);
