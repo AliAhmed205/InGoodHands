@@ -45,6 +45,14 @@ header nav {
   opacity: 1;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 header nav a {
   text-decoration: none;
   color: black;
@@ -149,6 +157,9 @@ header nav .mobile.active li a {
   padding-left: 2rem;
 }
 
+main {
+  padding-top: 3rem;
+}
 
 
 /* Main sections */
@@ -174,6 +185,41 @@ main .homepage-section .background-image {
   opacity: .8;
 
   animation: fadeInBG .5s 3.5s backwards;
+}
+
+.baby-main {
+  & .background-image {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("./images/morereddish.png");
+    background-size: cover;
+    background-position: 0 0;
+    z-index: -1;
+    opacity: .8;
+  } 
+  
+  & .FAQ-section {
+    background-color: #a90038;
+
+    & h2 {
+      color: var(--IYH-white);
+    }
+
+    & .accordion {
+      .accordion-button {
+        background-color: var(--IYH-white);
+        color: var(--IYH-color);
+      }
+    }
+  }
+}
+
+.baby-sitter nav {
+  animation: none;
+  opacity: 1;
 }
 
 main .homepage-section h2 {
@@ -308,6 +354,7 @@ main .about-section ul li:nth-of-type(4) a:hover {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  height: fit-content;
 
   & h2 {
     color: var(--IYH-color);
@@ -324,7 +371,7 @@ main .about-section ul li:nth-of-type(4) a:hover {
     justify-content: center;
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 100vh;
+    height: 70vh;
 
     & .about-us {
       width: 100%;
