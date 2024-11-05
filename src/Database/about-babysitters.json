@@ -1,7 +1,8 @@
 [{
-  "naam": "Sanne Jansen",
+  "naam": "Renee Driebergen",
   "locatie": "Amsterdam",
   "uurtarief": 12.5,
+  "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "totaalAantalReviews": 24,
   "gemiddeldeReviewScore": 4.8,
   "beschikbaarheid": {
@@ -60,6 +61,8 @@
   "naam": "Max de Vries",
   "locatie": "Rotterdam",
   "uurtarief": 10.0,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 15,
   "gemiddeldeReviewScore": 4.5,
   "beschikbaarheid": {
@@ -118,6 +121,8 @@
   "naam": "Lotte Bakker",
   "locatie": "Utrecht",
   "uurtarief": 14.0,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 30,
   "gemiddeldeReviewScore": 4.9,
   "beschikbaarheid": {
@@ -176,6 +181,8 @@
   "naam": "Xiao Nan Pols",
   "locatie": "Hoorn",
   "uurtarief": 20.0,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 18,
   "gemiddeldeReviewScore": 4.6,
   "beschikbaarheid": {
@@ -234,6 +241,8 @@
   "naam": "Eva de Jong",
   "locatie": "Eindhoven",
   "uurtarief": 13.5,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 22,
   "gemiddeldeReviewScore": 4.7,
   "beschikbaarheid": {
@@ -291,6 +300,8 @@
   "naam": "Daan Peters",
   "locatie": "Breda",
   "uurtarief": 9.5,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 12,
   "gemiddeldeReviewScore": 4.4,
   "beschikbaarheid": {
@@ -348,6 +359,8 @@
   "naam": "Sofia Bos",
   "locatie": "Tilburg",
   "uurtarief": 12.0,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 20,
   "gemiddeldeReviewScore": 4.8,
   "beschikbaarheid": {
@@ -406,6 +419,8 @@
   "naam": "Lucas Verhoeven",
   "locatie": "Amersfoort",
   "uurtarief": 10.5,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 14,
   "gemiddeldeReviewScore": 4.5,
   "beschikbaarheid": {
@@ -463,6 +478,8 @@
   "naam": "Emma Visser",
   "locatie": "Groningen",
   "uurtarief": 11.5,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 19,
   "gemiddeldeReviewScore": 4.6,
   "beschikbaarheid": {
@@ -521,6 +538,8 @@
   "naam": "Noah Mulder",
   "locatie": "Zwolle",
   "uurtarief": 10.0,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
   "totaalAantalReviews": 13,
   "gemiddeldeReviewScore": 4.3,
   "beschikbaarheid": {

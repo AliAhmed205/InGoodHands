@@ -27,7 +27,9 @@
   {#if babysittersList.length > 0}
     <ul class="about-us">
       {#each babysittersList as babysitter}
-        <li><a href="#">{babysitter.naam}</a></li>
+        <li>
+          <a href="#"><img src={babysitter.profielFoto} alt="Foto van {babysitter.naam}" srcset=""> {babysitter.naam}</a>
+        </li>
       {/each}
     </ul>
   {:else}
