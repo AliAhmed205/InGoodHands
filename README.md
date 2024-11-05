@@ -1,18 +1,38 @@
-# 👨‍🍼 InGoodHands (Work In Progress)
+# create-svelte
 
-### 🔐🩷 A trusted platform connecting parents with reliable babysitters.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## 📋 Overview
-"In Good Hands" is a babysitting service designed to help parents find trustworthy and reliable babysitters quickly and efficiently. 
-My platform aims to provide peace of mind by connecting families with vetted caregivers who meet their specific needs.
+## Creating a project
 
-## 🔧 Features
+If you're seeing this, you've probably already done this step. Congrats!
 
-| **Feature**              | **Description**                                                                 |
-|--------------------------|---------------------------------------------------------------------------------|
-| **Search and Filter**     | Find babysitters based on location, availability, experience, and more.         |
-| **Profile Pages**         | Detailed profiles for babysitters including reviews, certifications, and background checks. |
-| **Booking and Scheduling**| Easy booking and scheduling to fit your family's needs.                         |
-| **Secure Payments**       | Integrated secure payment options to ensure hassle-free transactions.           |
-| **Notifications**         | Real-time notifications for booking confirmations, reminders, and updates.      |
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

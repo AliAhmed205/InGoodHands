@@ -1,7 +1,7 @@
 <script>
-  import Hero from "../components/Hero.svelte";
-
+  import Header from "../components/Header.svelte"
+  import Main from "../components/Main.svelte";
 </script>
-<main class="flex flex-col">
-  <Hero/>
-</main>
+
+<Header />
+<Main />

@@ -1,48 +1,88 @@
 <script>
   import { onMount } from "svelte";
-  import Dock from "./Dock.svelte";
-  import HamburgerMenu from "./HamburgerMenu.svelte";
 
-  onMount(() =>{
-    const hamburgerIcon = document.getElementById('hamburger-icon')
-    const menu = document.getElementById('menu-section')
-    const closeBtn = document.getElementById('close-icon')
-    const logoMenu = document.getElementById('logo-menu')
+  onMount(() => {
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const hamburgerMenu = document.querySelector(".mobile");
+    const closeIcon = document.getElementById("close-menu");
+    const bodyEl = document.querySelector("body");
 
-    if(hamburgerIcon) {
-      hamburgerIcon.addEventListener("click", ()=>{
-        menu.classList.add('active')
-      })
+    if (hamburgerIcon && hamburgerMenu && closeIcon && bodyEl) {
+      hamburgerIcon.addEventListener("click", () => {
+        hamburgerMenu.classList.add("active");
+        bodyEl.classList.add("freeze");
+      });
 
-      closeBtn.addEventListener('click', ()=>{
-        menu.classList.remove('active')
-      })
+      closeIcon.addEventListener("click", () => {
+        hamburgerMenu.classList.remove("active");
+        bodyEl.classList.remove("freeze");
+      });
 
-      logoMenu.addEventListener('click', ()=>{
-        menu.classList.remove('active')
-      })
+      document.querySelectorAll("ul.mobile li a").forEach((a) => {
+        a.addEventListener("click", () => {
+          hamburgerMenu.classList.remove("active");
+          bodyEl.classList.remove("freeze");
+        });
+      });
+    } else {
+      console.error('Niet alle elementen zijn gevonden in de DOM.');
     }
-  })
-
+  });
 </script>
 
-<header class="main-header">
+
+<header>
+  <nav>
     <a href="/">
-      <h1><i class="fa-solid fa-person-breastfeeding"></i>
-        In <span>Good</span> 
-        Hands
+      <h1>
+        <i class="fa-solid fa-person-breastfeeding"></i>In <span>Good</span> Hands
       </h1>
     </a>
-    <nav>
-      <ul>
-      <li><a href="#About">about</a></li>
-      <li><a href="#ourTeam">our team</a></li>
-      <li><a href="#FAQs">FAQs</a></li>
-      <li><a href="#reviews">reviews</a></li>
-      <button class="specialBtn"><i class="fa-solid fa-baby"></i>Book a babysitter</button>
+    <ul class="desktop">
+      <li>
+        <a href="#about-us-link">about</a>
+      </li>
+      <li>
+        <a href="#review-anchor">reviews</a>
+      </li>
+      <li>
+        <a href="#FAQ-id">FAQ</a>
+      </li>
+      <li>
+        <a href="#" class="CTA"
+          ><i class="fa-solid fa-baby"></i> Book a babysitter</a
+        >
+      </li>
     </ul>
-    </nav>
-    <button type="button" id="hamburger-icon"><i class="fa-solid fa-bars"></i></button>
-    <Dock />
-    <HamburgerMenu />
+
+    <button type="button" id="hamburger-icon"
+      ><i class="fa-solid fa-bars"></i></button
+    >
+
+    <ul class="mobile">
+      <div class="top-menu">
+        <h1><i class="fa-solid fa-person-breastfeeding"></i>In Good Hands</h1>
+        <button type="button" id="close-menu"
+          ><i class="fa-solid fa-xmark"></i></button
+        >
+      </div>
+      <hr />
+      <li>
+        <a href="#about-us-link">about</a>
+      </li>
+      <hr />
+      <li>
+        <a href="#review-anchor">reviews</a>
+      </li>
+      <hr />
+      <li>
+        <a href="#FAQ-id">FAQ</a>
+      </li>
+      <hr />
+      <li>
+        <a href="#" class="CTA">Book a babysitter</a>
+      </li>
+      <hr />
+    </ul>
+  </nav>
 </header>
