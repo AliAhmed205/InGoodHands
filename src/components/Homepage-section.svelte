@@ -6,7 +6,7 @@
   <h2><span>Trusted</span> care for your <span>little ones</span></h2>
   <section class="CTA">
     <a href="#about-us-link">Who are we?</a>
-    <a href="#the-babysitters">Book a babysitter</a>
+    <a href="/babysitters">Book a babysitter</a>
   </section>
   <div class="stars">
     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
