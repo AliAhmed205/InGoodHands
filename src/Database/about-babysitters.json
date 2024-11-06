@@ -1,607 +1,620 @@
 [{
-  "id": 1,
-  "naam": "Renee Driebergen",
-  "locatie": "Amsterdam",
-  "uurtarief": 12.5,
-  "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  "totaalAantalReviews": 24,
-  "gemiddeldeReviewScore": 5,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
+    "id": 1,
+    "naam": "Renee Driebergen",
+    "locatie": "Amsterdam",
+    "bio": "Hi, I'm Renee! I've always had a passion for working with children, which is why I’m so excited to be part of In Good Hands. I believe in creating a fun and safe environment for kids to grow and learn, and I'm always looking for creative ways to engage with them. In my spare time, I enjoy reading, hiking, and spending time with my family and friends.",
+    "uurtarief": 12.5,
+    "profielFoto": "https://images.pexels.com/photos/769690/pexels-photo-769690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "totaalAantalReviews": 24,
+    "gemiddeldeReviewScore": 5,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": true,
+        "avond": false
+      },
+      "woensdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": true,
+        "avond": false
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": true,
-      "avond": false
-    },
-    "woensdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": true,
-      "avond": false
+    "overMij": ["Ervaren met baby's en peuters", "Creatief met knutselactiviteiten", "Tweetalig (Nederlands en Engels)"],
+    "opleidingen": ["Kinderopvang (MBO)", "EHBO voor kinderen"],
+    "recenteReview": {
+      "datum": "2023-10-12",
+      "sterren": 5,
+      "text": "Sanne was geweldig met onze dochter! Heel geduldig en professioneel."
     }
   },
-  "overMij": ["Ervaren met baby's en peuters", "Creatief met knutselactiviteiten", "Tweetalig (Nederlands en Engels)"],
-  "opleidingen": ["Kinderopvang (MBO)", "EHBO voor kinderen"],
-  "recenteReview": {
-    "datum": "2023-10-12",
-    "sterren": 5,
-    "text": "Sanne was geweldig met onze dochter! Heel geduldig en professioneel."
-  }
-},
-{
-  "id": 2,
-  "naam": "Max de Vries",
-  "locatie": "Rotterdam",
-  "uurtarief": 10.0,
+  {
+    "id": 2,
+    "naam": "Max de Vries",
+    "locatie": "Rotterdam",
+    "bio": "Hey, I'm Max! I’ve been babysitting for a few years now and it’s something I genuinely enjoy. Kids have so much energy and creativity, and I love helping them explore that. I’m all about making sure everyone feels comfortable, safe, and has fun. When I'm not babysitting, I like to play sports and travel.",
+    "uurtarief": 10,
     "profielFoto": "https://images.pexels.com/photos/998902/pexels-photo-998902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 15,
-  "gemiddeldeReviewScore": 4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "totaalAantalReviews": 15,
+    "gemiddeldeReviewScore": 4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      }
     },
-    "dinsdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "overMij": ["Actief en sportief", "Veel ervaring met buitenspelletjes", "Behulpzaam bij huiswerk"],
+    "opleidingen": ["Sport en Bewegen (MBO)", "EHBO-certificaat"],
+    "recenteReview": {
+      "datum": "2023-09-22",
+      "sterren": 4,
+      "text": "Onze kinderen hadden een super leuke dag met Max, zeker aan te raden!"
     }
   },
-  "overMij": ["Actief en sportief", "Veel ervaring met buitenspelletjes", "Behulpzaam bij huiswerk"],
-  "opleidingen": ["Sport en Bewegen (MBO)", "EHBO-certificaat"],
-  "recenteReview": {
-    "datum": "2023-09-22",
-    "sterren": 4,
-    "text": "Onze kinderen hadden een super leuke dag met Max, zeker aan te raden!"
-  }
-},
-{
-  "id": 3,
-  "naam": "Lotte Bakker",
-  "locatie": "Utrecht",
-  "uurtarief": 14.0,
+  {
+    "id": 3,
+    "naam": "Lotte Bakker",
+    "locatie": "Utrecht",
+    "bio": "Hi there, I’m Lotte! I’ve always been the go-to babysitter for my cousins, and I found that I really enjoy looking after children. I’m patient, caring, and enjoy coming up with creative activities to make sure the kids have a great time. Outside of babysitting, I’m a huge fan of painting and yoga!",
+    "uurtarief": 14,
     "profielFoto": "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 30,
-  "gemiddeldeReviewScore": 5,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
+    "totaalAantalReviews": 30,
+    "gemiddeldeReviewScore": 5,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "donderdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "donderdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
+    "overMij": ["Geduldig en betrouwbaar", "Specialist in gezonde snacks maken", "Goed met peuters en kleuters"],
+    "opleidingen": ["Pedagogiek (HBO)", "Kinder-EHBO"],
+    "recenteReview": {
+      "datum": "2023-10-05",
+      "sterren": 5,
+      "text": "Lotte is een geweldige oppas! Onze kinderen kijken uit naar de volgende keer."
     }
   },
-  "overMij": ["Geduldig en betrouwbaar", "Specialist in gezonde snacks maken", "Goed met peuters en kleuters"],
-  "opleidingen": ["Pedagogiek (HBO)", "Kinder-EHBO"],
-  "recenteReview": {
-    "datum": "2023-10-05",
-    "sterren": 5,
-    "text": "Lotte is een geweldige oppas! Onze kinderen kijken uit naar de volgende keer."
-  }
-},
-{
-  "id": 4,
-  "naam": "Xiao Nan Pols",
-  "locatie": "Hoorn",
-  "uurtarief": 20.0,
+  {
+    "id": 4,
+    "naam": "Xiao Nan Pols",
+    "locatie": "Hoorn",
+    "bio": "Hello, my name is Xiao! I moved to the Netherlands a few years ago, and I'm thrilled to be working at In Good Hands. I love interacting with children and helping them grow through fun, educational activities. In my free time, I enjoy cooking and exploring new cultures.",
+    "uurtarief": 20,
     "profielFoto": "https://images.pexels.com/photos/2956641/pexels-photo-2956641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 18,
-  "gemiddeldeReviewScore": 3,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
+    "totaalAantalReviews": 18,
+    "gemiddeldeReviewScore": 3,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": true
+      },
+      "vrijdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": false
+      },
+      "zaterdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "zondag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": true
-    },
-    "vrijdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": false
-    },
-    "zaterdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "zondag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
+    "overMij": ["Rustig en betrouwbaar", "Helpt graag met huiswerk", "Tweetalig (Nederlands en Mandarijn Chinees)"],
+    "opleidingen": ["Onderwijsassistent (HBO)", "Basiscursus EHBO"],
+    "recenteReview": {
+      "datum": "2023-08-30",
+      "sterren": 4,
+      "text": "Xiao was geweldig met de kinderen en erg behulpzaam. Zeker een aanrader!"
     }
   },
-  "overMij": ["Rustig en betrouwbaar", "Helpt graag met huiswerk", "Tweetalig (Nederlands en Mandarijn Chinees)"],
-  "opleidingen": ["Onderwijsassistent (HBO)", "Basiscursus EHBO"],
-  "recenteReview": {
-    "datum": "2023-08-30",
-    "sterren": 4,
-    "text": "Xiao was geweldig met de kinderen en erg behulpzaam. Zeker een aanrader!"
-  }
-},
-{
-  "id": 5,
-  "naam": "Eva de Jong",
-  "locatie": "Eindhoven",
-  "uurtarief": 13.5,
+  {
+    "id": 5,
+    "naam": "Eva de Jong",
+    "locatie": "Eindhoven",
+    "bio": "Hey, I’m Eva! I've always felt a natural connection with kids, and it’s amazing to be part of In Good Hands. I believe every child is unique, and I love tailoring my approach to suit their needs. In my free time, I love going for long walks in nature and reading novels.",
+    "uurtarief": 13.5,
     "profielFoto": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 22,
-  "gemiddeldeReviewScore": 4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": true
+    "totaalAantalReviews": 22,
+    "gemiddeldeReviewScore": 4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": true
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      }
     },
-    "dinsdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": true
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "overMij": ["Creatief en vriendelijk", "Organiseert leuke knutselactiviteiten", "Goede communicator"],
+    "opleidingen": ["Sociaal Pedagogisch Werk (MBO)", "Kinderpsychologie (cursus)"],
+    "recenteReview": {
+      "datum": "2023-10-15",
+      "sterren": 5,
+      "text": "Eva is super vriendelijk en zorgzaam, onze kinderen hebben genoten!"
     }
-  },    "overMij": ["Creatief en vriendelijk", "Organiseert leuke knutselactiviteiten", "Goede communicator"],
-  "opleidingen": ["Sociaal Pedagogisch Werk (MBO)", "Kinderpsychologie (cursus)"],
-  "recenteReview": {
-    "datum": "2023-10-15",
-    "sterren": 5,
-    "text": "Eva is super vriendelijk en zorgzaam, onze kinderen hebben genoten!"
-  }
-},
-{
-  "id": 6,
-  "naam": "Daan Peters",
-  "locatie": "Breda",
-  "uurtarief": 9.5,
+  },
+  {
+    "id": 6,
+    "naam": "Daan Peters",
+    "locatie": "Breda",
+    "bio": "Hi, I’m Daan! I’ve been passionate about working with kids for a long time, and now, I get to do it every day with In Good Hands. I believe in creating a safe space where kids can explore, learn, and have fun. When I’m not babysitting, I enjoy cycling and volunteering in my local community.",
+    "uurtarief": 9.5,
     "profielFoto": "https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 12,
-  "gemiddeldeReviewScore": 4.4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
+    "totaalAantalReviews": 12,
+    "gemiddeldeReviewScore": 4.4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "dinsdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": false
+      }
     },
-    "dinsdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": false
+    "overMij": ["Energieke spelletjes en buitenspelen", "Groot verantwoordelijkheidsgevoel", "Goed met oudere kinderen"],
+    "opleidingen": ["Pedagogisch Medewerker (MBO)", "EHBO voor kinderen"],
+    "recenteReview": {
+      "datum": "2023-09-18",
+      "sterren": 4,
+      "text": "Daan deed het prima met onze zoon, erg leuk en enthousiast."
     }
-  },    "overMij": ["Energieke spelletjes en buitenspelen", "Groot verantwoordelijkheidsgevoel", "Goed met oudere kinderen"],
-  "opleidingen": ["Pedagogisch Medewerker (MBO)", "EHBO voor kinderen"],
-  "recenteReview": {
-    "datum": "2023-09-18",
-    "sterren": 4,
-    "text": "Daan deed het prima met onze zoon, erg leuk en enthousiast."
-  }
-},
-{
-  "id": 7,
-  "naam": "Serena Bos",
-  "locatie": "Tilburg",
-  "uurtarief": 12.0,
+  },
+  {
+    "id": 7,
+    "naam": "Serena Bos",
+    "locatie": "Tilburg",
+    "bio": "Hi, I’m Serena! I recently moved to the Netherlands from Italy, and I’m really excited to be working with children here. I love making sure the children I care for feel safe, happy, and understood. When I’m not babysitting, you’ll find me cooking delicious Italian food and learning new languages.",
+    "uurtarief": 12,
     "profielFoto": "https://images.pexels.com/photos/4725082/pexels-photo-4725082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 20,
-  "gemiddeldeReviewScore": 4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "totaalAantalReviews": 20,
+    "gemiddeldeReviewScore": 4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "donderdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      }
     },
-    "dinsdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "donderdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "overMij": ["Goed met kleuters", "Zorgzaam en geduldig", "Tweetalig (Nederlands en Spaans)"],
+    "opleidingen": ["Pedagogiek (HBO)", "Basiscursus Kinderopvang"],
+    "recenteReview": {
+      "datum": "2023-09-05",
+      "sterren": 5,
+      "text": "Sofia is zo lief en geduldig! Onze dochter vond het superleuk."
     }
   },
-  "overMij": ["Goed met kleuters", "Zorgzaam en geduldig", "Tweetalig (Nederlands en Spaans)"],
-  "opleidingen": ["Pedagogiek (HBO)", "Basiscursus Kinderopvang"],
-  "recenteReview": {
-    "datum": "2023-09-05",
-    "sterren": 5,
-    "text": "Sofia is zo lief en geduldig! Onze dochter vond het superleuk."
-  }
-},
-{
-  "id": 8,
-  "naam": "Lucas Shen",
-  "locatie": "Amersfoort",
-  "uurtarief": 10.5,
+  {
+    "id": 8,
+    "naam": "Lucas Shen",
+    "locatie": "Amersfoort",
+    "bio": "Hey, I’m Lucas! I’ve always loved hanging out with younger kids and getting involved in their activities. Babysitting gives me the opportunity to connect with kids, offer them guidance, and have a good time. I also enjoy playing video games and skateboarding in my free time.",
+    "uurtarief": 10.5,
     "profielFoto": "https://images.pexels.com/photos/2706265/pexels-photo-2706265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 14,
-  "gemiddeldeReviewScore": 4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "totaalAantalReviews": 14,
+    "gemiddeldeReviewScore": 4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "vrijdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": false
+      },
+      "zaterdag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "zondag": {
+        "ochtend": false,
+        "middag": false,
+        "namiddag": true,
+        "avond": true
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "vrijdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": false
-    },
-    "zaterdag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "zondag": {
-      "ochtend": false,
-      "middag": false,
-      "namiddag": true,
-      "avond": true
+    "overMij": ["Helpt graag met huiswerk", "Veel ervaring met jonge kinderen", "Groot verantwoordelijkheidsgevoel"],
+    "opleidingen": ["Basisonderwijs (HBO)", "EHBO voor kinderen"],
+    "recenteReview": {
+      "datum": "2023-10-01",
+      "sterren": 4,
+      "text": "Lucas was betrouwbaar en goed met onze zoon, een fijne ervaring!"
     }
-  },    "overMij": ["Helpt graag met huiswerk", "Veel ervaring met jonge kinderen", "Groot verantwoordelijkheidsgevoel"],
-  "opleidingen": ["Basisonderwijs (HBO)", "EHBO voor kinderen"],
-  "recenteReview": {
-    "datum": "2023-10-01",
-    "sterren": 4,
-    "text": "Lucas was betrouwbaar en goed met onze zoon, een fijne ervaring!"
-  }
-},
-{
-  "id": 9,
-  "naam": "Emma Visser",
-  "locatie": "Groningen",
-  "uurtarief": 11.5,
+  },
+  {
+    "id": 9,
+    "naam": "Emma Visser",
+    "locatie": "Groningen",
+    "bio": "Hi, I’m Emma! I’ve always been surrounded by children in my family, and I love being able to help out as a babysitter. I’m a fun and energetic person who loves playing games and doing crafts with kids. Outside of babysitting, I’m passionate about photography and traveling.",
+    "uurtarief": 11.5,
     "profielFoto": "https://images.pexels.com/photos/5918185/pexels-photo-5918185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 19,
-  "gemiddeldeReviewScore": 5,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": false,
-      "avond": false
+    "totaalAantalReviews": 19,
+    "gemiddeldeReviewScore": 5,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": false,
+        "avond": false
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      },
+      "woensdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "donderdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "vrijdag": {
+        "ochtend": false,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": false,
+        "namiddag": false,
+        "avond": false
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
-    },
-    "woensdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "donderdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "vrijdag": {
-      "ochtend": false,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": false,
-      "namiddag": false,
-      "avond": false
+    "overMij": ["Geduldig en vriendelijk", "Creatief met knutselen", "Geduldig met peuters"],
+    "opleidingen": ["Maatschappelijk Werk (HBO)", "Kinder-EHBO"],
+    "recenteReview": {
+      "datum": "2023-10-08",
+      "sterren": 5,
+      "text": "Emma is heel geduldig en zorgzaam, de kinderen vonden haar geweldig!"
     }
   },
-  "overMij": ["Geduldig en vriendelijk", "Creatief met knutselen", "Geduldig met peuters"],
-  "opleidingen": ["Maatschappelijk Werk (HBO)", "Kinder-EHBO"],
-  "recenteReview": {
-    "datum": "2023-10-08",
-    "sterren": 5,
-    "text": "Emma is heel geduldig en zorgzaam, de kinderen vonden haar geweldig!"
-  }
-},
-{
-  "id": 10,
-  "naam": "Noah Mulder",
-  "locatie": "Zwolle",
-  "uurtarief": 10.0,
+  {
+    "id": 10,
+    "naam": "Noah Mulder",
+    "locatie": "Zwolle",
+    "bio": "Hey there, I’m Noah! I’m originally from Canada and now living in the Netherlands. I’ve been working with kids for a few years and love how every day is a new adventure. Whether it's reading a story or playing outside, I’m here to make sure the children I look after have a wonderful time. In my spare time, I enjoy playing music and hiking.",
+    "uurtarief": 10,
     "profielFoto": "https://images.pexels.com/photos/4816813/pexels-photo-4816813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
-  "totaalAantalReviews": 13,
-  "gemiddeldeReviewScore": 4,
-  "beschikbaarheid": {
-    "maandag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "totaalAantalReviews": 13,
+    "gemiddeldeReviewScore": 4,
+    "beschikbaarheid": {
+      "maandag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "dinsdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "woensdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "donderdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "vrijdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zaterdag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      },
+      "zondag": {
+        "ochtend": true,
+        "middag": true,
+        "namiddag": true,
+        "avond": true
+      }
     },
-    "dinsdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "woensdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "donderdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "vrijdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zaterdag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
-    },
-    "zondag": {
-      "ochtend": true,
-      "middag": true,
-      "namiddag": true,
-      "avond": true
+    "overMij": ["Energiek en speels", "Sportief en actief", "Goed met kinderen van alle leeftijden"],
+    "opleidingen": ["Sport en Bewegen (MBO)", "Basiscursus Kinderopvang"],
+    "recenteReview": {
+      "datum": "2023-09-28",
+      "sterren": 4,
+      "text": "Noah was leuk en actief, precies wat onze zoon nodig had!"
     }
-  },
-  "overMij": ["Energiek en speels", "Sportief en actief", "Goed met kinderen van alle leeftijden"],
-  "opleidingen": ["Sport en Bewegen (MBO)", "Basiscursus Kinderopvang"],
-  "recenteReview": {
-    "datum": "2023-09-28",
-    "sterren": 4,
-    "text": "Noah was leuk en actief, precies wat onze zoon nodig had!"
   }
-}
 ]
