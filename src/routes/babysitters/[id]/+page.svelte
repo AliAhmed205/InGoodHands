@@ -65,7 +65,63 @@
       <hr>
       <p class="babysitter-bio">{babysitter.bio}</p>
       <hr>
+      <div class="experience">
+        <i class="fa-regular fa-address-card"></i>
+        <div class="experience-text">
+          <h3>Babysit Experience</h3>
+            <p>{babysitter.ervaring} years</p>
+        </div>
+      </div>
+      <div class="experience">
+        <i class="fa-regular fa-address-card"></i>
+        <div class="experience-text">
+          <h3>Has experience with</h3>
+          <ul>
+            {#each babysitter.ervaringKind as kind}
+            <li>{kind}</li>
+          {/each}
+          </ul>
+        </div>
+      </div>
+      <hr>
       <a href="/babysitters">Terug naar de lijst</a>
+      <div class="babysitter-schedule">
+      </div>
+      <table>
+        <caption>
+          beschikbaar
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Person</th>
+            <th scope="col">Most interest in</th>
+            <th scope="col">Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Chris</th>
+            <td>HTML tables</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <th scope="row">Dennis</th>
+            <td>Web accessibility</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <th scope="row">Sarah</th>
+            <td>JavaScript frameworks</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <th scope="row">Karen</th>
+            <td>Web performance</td>
+            <td>36</td>
+          </tr>
+        </tbody>
+      </table>
+      
     </section>
   </section>
 {:else}

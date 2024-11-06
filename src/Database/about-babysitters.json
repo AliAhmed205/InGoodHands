@@ -12,43 +12,43 @@
     "totaalAantalReviews": 24,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": false,
         "namiddag": true,
         "avond": false
       },
-      "woensdag": {
+      "wo": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": false,
         "namiddag": true,
@@ -78,43 +78,43 @@
     "totaalAantalReviews": 15,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
@@ -144,43 +144,43 @@
     "totaalAantalReviews": 30,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "donderdag": {
+      "do": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
@@ -210,43 +210,43 @@
     "totaalAantalReviews": 18,
     "gemiddeldeReviewScore": 3,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": true
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": false
       },
-      "zaterdag": {
+      "za": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "zondag": {
+      "zo": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
@@ -276,43 +276,43 @@
     "totaalAantalReviews": 22,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": true
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
@@ -342,43 +342,43 @@
     "totaalAantalReviews": 12,
     "gemiddeldeReviewScore": 4.4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "dinsdag": {
+      "di": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
@@ -408,43 +408,43 @@
     "totaalAantalReviews": 20,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "donderdag": {
+      "do": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
@@ -474,43 +474,43 @@
     "totaalAantalReviews": 14,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": false
       },
-      "zaterdag": {
+      "za": {
         "ochtend": false,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "zondag": {
+      "zo": {
         "ochtend": false,
         "middag": false,
         "namiddag": true,
@@ -539,43 +539,43 @@
     "totaalAantalReviews": 19,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": true,
         "namiddag": false,
         "avond": false
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": false
       },
-      "woensdag": {
+      "wo": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "donderdag": {
+      "do": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": false,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": false,
         "namiddag": false,
@@ -605,43 +605,43 @@
     "totaalAantalReviews": 13,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "maandag": {
+      "ma": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "dinsdag": {
+      "di": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "woensdag": {
+      "wo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "donderdag": {
+      "do": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "vrijdag": {
+      "vrij": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zaterdag": {
+      "za": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,
         "avond": true
       },
-      "zondag": {
+      "zo": {
         "ochtend": true,
         "middag": true,
         "namiddag": true,

@@ -902,8 +902,43 @@ footer {
       }
     }
 
-    & .babysitter-bio {
+    & .experience {
+      margin: 1rem 0;
+      display: flex;
+      gap: .4rem;
 
+
+      & i {
+        height: fit-content;
+        margin-top: .3rem;
+        color: var(--IYH-color-focus-hover);
+      }
+      & .experience-text {  
+        display: flex;
+        flex-direction: column;
+
+        & h3 {
+          font-size: 1rem;
+          color:#7a1230 ;
+        }
+
+        & ul {
+          padding: 0;
+          display: flex;
+          gap: .5rem;
+          flex-wrap: wrap;
+
+          & li {
+            padding: .5rem 2rem;
+            background-color: #ff2d69;
+            color: var(--IYH-white);
+            border-radius: 3rem;
+            font-size: .8rem;
+            margin: .5rem 0;
+
+          }
+        }
+      }
     }
   }
 }
