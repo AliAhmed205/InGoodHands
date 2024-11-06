@@ -2,6 +2,9 @@
   import { page } from "$app/stores";
   import { onMount, onDestroy } from "svelte";
   import Header from "../../../components/Header.svelte"
+  import cloudImage from '../../../images/cloud.png';
+  import PinImage from "../../../images/Drawing-Pin.png"
+
 
   let babysitter = null;
   let loading = true;
@@ -62,6 +65,7 @@
 <main class="detail-main">
   <section class="babysitter-detail-container">
     <section class="image-container">
+      <img src={PinImage} alt="Pin-item">
       <div class="text-container">
         <h1>
           {babysitter.naam}
@@ -182,6 +186,11 @@
       </div>
     </section>
   </section>
+  <div aria-hidden="true" class="cloud-container">
+    <img src={cloudImage} alt="Wolken">
+    <img src={cloudImage} alt="Wolken">
+    <img src={cloudImage} alt="Wolken">
+  </div>
 </main>
 {:else}
   <p>Babysitter niet gevonden.</p>

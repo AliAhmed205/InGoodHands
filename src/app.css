@@ -814,6 +814,8 @@ footer {
 }
 
 .detail-main {
+    overflow: hidden;
+    position: relative;
     padding: 0;
     background-color: var(--IYH-color);
 
@@ -825,6 +827,10 @@ footer {
     flex-direction: column;
 
     & .image-container {
+      animation: rotating 5s infinite alternate;
+      transform-origin: top;
+      position: relative;
+      z-index: 2;
       background-color: ghostwhite;
       filter: drop-shadow(rgb(0, 0, 0, .2) 0 10px 5px);
       width: fit-content;
@@ -838,7 +844,14 @@ footer {
       margin: 0 auto;
 
 
-      & img {
+      & img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        top: -1rem;
+        left: 150px;
+      }
+
+      & img:nth-of-type(2) {
         width: 300px;
         height: 300px;
         object-fit: cover;
@@ -874,6 +887,8 @@ footer {
     }
 
     & .detail-wrapper {
+      position: relative;
+      z-index: 2;
       padding: 1rem 2rem 1rem 2rem;
       border-radius: 2rem 2rem 0 0;
       transition: .5s;
@@ -1013,6 +1028,32 @@ footer {
       }
     }
   }
+
+  .cloud-container {
+
+    img {
+    position: absolute;
+    z-index: 1;
+    animation: slidingCarousel 50s infinite alternate;
+
+    &:nth-of-type(1){
+      top: 50rem;
+      right: 0;
+    }
+
+    &:nth-of-type(2) {
+      top: 10rem;
+      left: 0;
+      animation: slidingCarousel 50s infinite alternate-reverse;
+    }
+
+    &:nth-of-type(3) {
+      top: 10rem;
+      right: -5rem;
+      animation: slidingCarousel 50s infinite alternate;
+    }
+    }
+  }
 }
 
 header.detail {
@@ -1094,7 +1135,7 @@ header.detail {
   & .babysitter-schedule {
 
     & table {
-      max-width: 40%;
+      /* max-width: 40%; */
     }
   }
 
@@ -1141,10 +1182,17 @@ header.detail {
 
   .detail-main {
     .babysitter-detail-container {
-      flex-direction: row;
+
+      & .detail-wrapper {
+        width: 600px;
+        min-width: 550px;
+        max-width: 600px;
+        margin: 0 auto;
+
+      }
 
       & .image-container {
-        margin: 7em;
+        margin: 7em auto;
       }
     }
   }
@@ -1238,5 +1286,15 @@ header.detail {
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes rotating {
+  from {
+    rotate: 10deg;
+  }
+
+  to {
+    rotate: -10deg;
   }
 }
