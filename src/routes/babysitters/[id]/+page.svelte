@@ -1,6 +1,7 @@
 <script>
   import { page } from "$app/stores";
   import { onMount, onDestroy } from "svelte";
+  import Header from "../../../components/Header.svelte"
 
   let babysitter = null;
   let loading = true;
@@ -44,11 +45,11 @@
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    // window.addEventListener("scroll", handleScroll);
 
-    onDestroy(() => {
-      window.removeEventListener("scroll", handleScroll);
-    });
+    // onDestroy(() => {
+    //   window.removeEventListener("scroll", handleScroll);
+    // });
   });
 </script>
 
@@ -57,6 +58,8 @@
 {#if loading}
   <p>Loading...</p>
 {:else if babysitter}
+<Header class="detail" />
+<main class="detail-main">
   <section class="babysitter-detail-container">
     <section class="image-container">
       <div class="text-container">
@@ -70,6 +73,7 @@
     </section>
 
     <section class="detail-wrapper" id="detail-wrapper">
+      <a href="/babysitters"> <i class="fa-solid fa-arrow-left"></i> Terug naar de lijst</a>
       <section class="detail one">
         <p><i class="fa-solid fa-thumbtack"></i> {babysitter.locatie}</p>
         <div class="star-container">
@@ -79,9 +83,9 @@
           <p>({babysitter.totaalAantalReviews}) Reviews</p>
         </div>
       </section>
-      <hr />
+      
       <p class="babysitter-bio">{babysitter.bio}</p>
-      <hr />
+      
       <div class="experience">
         <i class="fa-regular fa-address-card"></i>
         <div class="experience-text">
@@ -100,7 +104,18 @@
           </ul>
         </div>
       </div>
-      <hr />
+      <div class="experience">
+        <i class="fa-regular fa-address-card"></i>
+        <div class="experience-text">
+          <h3>Has experience with</h3>
+          <ul>
+            {#each babysitter.kenmerken as kenmerk}
+              <li>{kenmerk}</li>
+            {/each}
+          </ul>
+        </div>
+      </div>
+      
       <div class="babysitter-schedule">
         <table>
           <caption> Beschikbaarheid </caption>
@@ -163,10 +178,11 @@
             </tr>
           </tbody>
         </table>
+        <button> <i class="fa-solid fa-baby"></i> Contact {babysitter.naam}</button>
       </div>
-      <a href="/babysitters">Terug naar de lijst</a>
     </section>
   </section>
+</main>
 {:else}
   <p>Babysitter niet gevonden.</p>
 {/if}
