@@ -47,6 +47,7 @@
         {babysitter.naam}
         <i class="fa-solid fa-certificate"></i>
       </h1>
+      <h3>€ {babysitter.uurtarief},00/hour</h3>
     </div>
       <img src={babysitter.profielFoto} alt={`Foto van ${babysitter.naam}`} />
     </section>
@@ -61,7 +62,9 @@
           <p>({babysitter.gemiddeldeReviewScore}) Reviews</p>
         </div>
       </section>
-      <p>{babysitter.bio}</p>
+      <hr>
+      <p class="babysitter-bio">{babysitter.bio}</p>
+      <hr>
       <a href="/babysitters">Terug naar de lijst</a>
     </section>
   </section>
