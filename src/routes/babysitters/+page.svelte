@@ -82,7 +82,7 @@
       </li>
       <hr />
       <li>
-        <a href="#the-babysitters" class="CTA">Book a babysitter</a>
+        <a href="/babysitters" class="CTA">Book a babysitter</a>
       </li>
       <hr />
     </ul>

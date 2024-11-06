@@ -34,8 +34,8 @@
       <ul class="about-us">
         {#each babysittersList as babysitter}
           <li>
-            <a href="/babysitters/{babysitter.id}"
-              ><img
+            <a href={`/babysitters/${babysitter.id}`}>
+              <img
                 src={babysitter.profielFoto}
                 alt="Foto van {babysitter.naam}"
                 srcset=""
