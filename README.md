@@ -3,6 +3,5 @@
 
 <img src="https://github.com/user-attachments/assets/f87b48f0-90c1-4328-be7c-bc8a026211cf" alt="">
 
-<p><b>In Good Hands</b> is a (fictional) babysitting service for people looking for a babysitter through an easy and followable design. Their mission is to promote animal adoption through a user-friendly platform that connects people with their future pet.</p>
-
+<p><b>In Good Hands</b> is a (fictional) babysitting service for people looking for a babysitter through an easy and followable design. 
 
