@@ -1,38 +1,8 @@
-# create-svelte
+<h6>Developed with: Svelte. I created this project to practice routing and complex data.</h6>
+<h5>This project was developed for my own personal educational growth</h5>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<img src="https://github.com/user-attachments/assets/f87b48f0-90c1-4328-be7c-bc8a026211cf" alt="">
 
-## Creating a project
+<p><b>In Good Hands</b> is a (fictional) babysitting service for people looking for a babysitter through an easy and followable design. Their mission is to promote animal adoption through a user-friendly platform that connects people with their future pet.</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
