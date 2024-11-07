@@ -7,23 +7,25 @@
 
       &:nth-of-type(1),
       &:nth-of-type(3) {
-          &:hover,
-          &:focus {
-            rotate: 20deg;
-          }
+
+        &:hover,
+        &:focus {
+          rotate: 20deg;
         }
+      }
 
       &:nth-of-type(2),
       &:nth-of-type(4) {
-          &:hover,
-          &:focus {
-            rotate: -20deg;
-          }
+
+        &:hover,
+        &:focus {
+          rotate: -20deg;
+        }
       }
     }
   }
 
-  & p {
+  &>p {
     padding: 0rem 2rem 2rem 2rem;
     color: black;
   }
@@ -54,17 +56,22 @@
       box-shadow: rgba(0, 0, 0, 0.28) 0 0 10px;
       text-decoration: none;
       transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-   
 
-        & h3 {
-          padding-top: 0.3rem;
-          color: var(--IYH-color);
-        }
+      & p {
+        width: 100%;
+        padding: 0;
+      }
 
-        & img {
-          width: 100%;
-        }
+      & h3 {  
+        color: var(--IYH-color);
+      }
+
+      & img {
+        width: 250px;
+        height: 330px;
+        object-position: top;
+        object-fit: cover;
       }
     }
   }
-
+}
