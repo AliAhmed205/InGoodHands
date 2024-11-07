@@ -50,11 +50,11 @@
       }
     };
 
-    // window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    // onDestroy(() => {
-    //   window.removeEventListener("scroll", handleScroll);
-    // });
+    onDestroy(() => {
+      window.removeEventListener("scroll", handleScroll);
+    });
   });
 </script>
 
