@@ -2,6 +2,7 @@
   import Babysitters from "../../components/Babysitters.svelte";
   import Faq from "../../components/FAQ.svelte";
   // import Header from "../../components/Header.svelte";
+  import "../babysitters/babysitter-page.css"
   import { onMount } from "svelte";
 
   onMount(() => {

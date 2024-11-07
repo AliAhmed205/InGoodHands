@@ -1,0 +1,278 @@
+& .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+  background-color: rgb(255, 215, 221);
+  padding: 2rem;
+
+  & h2 {
+    color: rgb(246, 41, 119);
+  }
+
+  & p {
+    margin-bottom: 1rem;
+  }
+
+  & label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 700;
+
+    & input {
+      padding: .5rem;
+      margin-bottom: 2rem;
+      margin-top: .5rem;
+      border: none;
+      border-radius: .5rem;
+    }
+
+    & textarea {
+      padding: 1rem;
+      height: 10rem;
+      border: none;
+      border-radius: .5rem;
+      margin-top: .5rem;
+    }
+  }
+
+  & button {
+    width: 50%;
+    padding: 1rem 1.5rem;
+    background-color: var(--IYH-color);
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    transition: .5s;
+    color: black;
+
+    &:hover,
+    &:focus {
+      background-color: #ae1943;
+      color: white;
+    }
+  }
+}
+
+& .adding-review {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.767);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+    z-index: 99;
+    transition: opacity 0.5s ease-in-out, pointer-events 0s 0s;
+
+    & .review-form {
+      opacity: 1;
+      pointer-events: all;
+      z-index: 100;
+    }
+
+    & .star-rating {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 1rem 0;
+
+      & label {
+        cursor: pointer;
+        color: #ccc;
+        transition: 0.5s;
+
+        &:hover,
+        &:hover~label {
+          color: var(--IYH-color);
+        }
+      }
+
+      & input {
+        display: none;
+
+        &:checked~label {
+          color: var(--IYH-color);
+        }
+      }
+    }
+
+    .rating-label {
+      text-align: center;
+    }
+  }
+
+  & .review-form {
+    background-color: white;
+    width: 24rem;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.584) 0 0 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out, pointer-events 0s 0.5s;
+
+    &.active {
+      opacity: 1;
+      pointer-events: all;
+      transition: opacity 0.5s ease-in-out, pointer-events 0s 0s;
+    }
+
+    & p:first-of-type b {
+      color: var(--IYH-color);
+      font-size: 1.1rem;
+    }
+
+    &>label:first-of-type {
+      margin-top: 1rem;
+    }
+
+    & label {
+      display: flex;
+      flex-direction: column;
+      font-weight: 600;
+
+      & input:focus {
+        background-color: rgb(255, 220, 225);
+      }
+    }
+
+    & input {
+      margin: 0.5rem 0 1rem 0;
+      padding: 0.5rem;
+      transition: 0.5s;
+    }
+
+    & textarea {
+      height: 70px;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      resize: none;
+      overflow-wrap: break-word;
+      white-space: pre-wrap;
+    }
+
+    & .button-container {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+
+      & button {
+        display: block;
+        border-radius: 100px;
+        background-color: var(--IYH-color);
+        border: none;
+        padding: 0.8rem 1rem;
+        color: white;
+        width: 8rem;
+        transition: 0.5s;
+
+        &:nth-of-type(1) {
+
+          &:hover,
+          &:active {
+            background-color: #a90038;
+          }
+        }
+
+        &:nth-of-type(2) {
+          background-color: white;
+          color: var(--IYH-color);
+          border: solid black 1px;
+
+          &:hover,
+          &:active {
+            background-color: #ffe7ef;
+          }
+        }
+      }
+    }
+  }
+}
+
+& .review-container {
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &>button {
+    padding: 2rem 2rem;
+    background-color: var(--IYH-white);
+    color: var(--IYH-color);
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 0 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    &:focus,
+    &:hover {
+      background-color: var(--IYH-color);
+      color: white;    
+    }
+
+    & span {
+      font-size: 5rem;
+      line-height: 3.5rem;
+    }
+  }
+}
+
+.reviews-title {
+  text-align: center;
+}
+
+
+
+.review-item {
+  list-style-type: none;
+  background-color: var(--IYH-white);
+  padding: 1rem;
+  width: 20em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 0 10px;
+  height: 10em;
+  display: block;
+  border-radius: 10px;
+  transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  & p {
+    
+    &:first-of-type {
+      color: var(--IYH-stars);
+    }
+
+    &:nth-of-type(2) {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-width: 100%;
+      font-size: .65rem;
+    }
+  }
+
+  & h3 {
+    color: var(--IYH-color);
+  }
+
+  & .review-date {
+    color: var(--IYH-black);
+    opacity: .3;
+    font-size: .8rem;
+  }
+  
+}

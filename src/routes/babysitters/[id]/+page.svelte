@@ -5,6 +5,8 @@
   import cloudImage from '../../../images/cloud.png';
   import PinImage from "../../../images/Drawing-Pin.png"
 
+  import "../[id]/detail.css"
+
 
   let babysitter = null;
   let loading = true;
@@ -61,7 +63,7 @@
 {#if loading}
   <p>Loading...</p>
 {:else if babysitter}
-<Header class="detail" />
+<Header />
 <main class="detail-main">
   <section class="babysitter-detail-container">
     <section class="image-container">

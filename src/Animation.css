@@ -1,0 +1,77 @@
+
+/****************/
+/*  Animations  */
+/****************/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBG {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .8;
+  }
+}
+
+@keyframes changeColor {
+  from {
+    color: var(--IYH-black);
+  }
+
+  to {
+    color: var(--IYH-color);
+  }
+}
+
+@keyframes movingTitle {
+  from {
+    transform: translateY(90px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes appearFadeIn {
+  from {
+    opacity: 0;
+    scale: 1.1;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+
+}
+
+@keyframes slidingCarousel {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes rotating {
+  from {
+    rotate: 10deg;
+  }
+
+  to {
+    rotate: -10deg;
+  }
+}

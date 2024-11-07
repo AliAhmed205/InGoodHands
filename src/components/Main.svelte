@@ -9,7 +9,9 @@
   import "../components/CSS/Homepage.css"
   import "../components/CSS/About.css"
   import "../components/CSS/Babysitters.css"
-  
+  import "../components/CSS/FAQ.css"
+  import "../components/CSS/Form.css"
+
 </script>
 
 <main>

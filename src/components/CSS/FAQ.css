@@ -1,0 +1,42 @@
+& .FAQ-section {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  & .accordion-button {
+    background-color: var(--IYH-color);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  & .accordion-button:hover {
+    background-color: var(--IYH-color-button);
+  }
+
+  & .accordion-content {
+    scroll-padding: 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: #f1f1f1;
+    padding: 0 10px;
+    margin-bottom: 2rem;
+
+    & p {
+      padding: 1rem;
+    }
+  }
+}

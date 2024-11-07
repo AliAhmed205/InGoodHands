@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import "../components/CSS/Header.css"
 
   onMount(() => {
     const hamburgerIcon = document.getElementById("hamburger-icon");
