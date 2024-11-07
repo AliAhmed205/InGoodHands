@@ -248,8 +248,10 @@
           {/if}
         </div>
         </article>
+        <div class="choice-container">
         <button type="button" on:click={handleSubmit}><i class="fa-solid fa-envelope"></i> Submit to {babysitter.naam}</button>
         <a href="/"><i class="fa-solid fa-xmark"></i> Cancel</a>
+      </div>
       </form>
     </section>
     <div class="succes-container">
