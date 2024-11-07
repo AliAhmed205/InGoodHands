@@ -270,7 +270,7 @@
     "kenmerken": ["Funny", "Free spirit", "Patient", "Emphatic"],
     "locatie": "Eindhoven",
     "bio": "Hey, I’m Eva! I've always felt a natural connection with kids, and it’s amazing to be part of In Good Hands. I believe every child is unique, and I love tailoring my approach to suit their needs. In my free time, I love going for long walks in nature and reading novels.",
-    "uurtarief": 13.5,
+    "uurtarief": 13,
     "profielFoto": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
     "totaalAantalReviews": 22,
@@ -336,11 +336,11 @@
     "kenmerken": ["Patient", "Outgoing", "Responsible"],
     "locatie": "Breda",
     "bio": "Hi, I’m Daan! I’ve been passionate about working with kids for a long time, and now, I get to do it every day with In Good Hands. I believe in creating a safe space where kids can explore, learn, and have fun. When I’m not babysitting, I enjoy cycling and volunteering in my local community.",
-    "uurtarief": 9.5,
+    "uurtarief": 9,
     "profielFoto": "https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
     "totaalAantalReviews": 12,
-    "gemiddeldeReviewScore": 4.4,
+    "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
       "ma": {
         "ochtend": true,
@@ -468,7 +468,7 @@
     "kenmerken": ["Responsible", "Outgoing"],
     "locatie": "Amersfoort",
     "bio": "Hey, I’m Lucas! I’ve always loved hanging out with younger kids and getting involved in their activities. Babysitting gives me the opportunity to connect with kids, offer them guidance, and have a good time. I also enjoy playing video games and skateboarding in my free time.",
-    "uurtarief": 10.5,
+    "uurtarief": 10,
     "profielFoto": "https://images.pexels.com/photos/2706265/pexels-photo-2706265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 
     "totaalAantalReviews": 14,

@@ -1,0 +1,46 @@
+& .homepage-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+
+  & h2 {
+    font-size: clamp(3rem, 4vw, 3.5rem);
+    font-weight: 500;
+    width: 100%;
+    line-height: clamp(3rem, 4vw, 3.5rem);
+    text-align: center;
+    animation: movingTitle .5s 2s backwards, fadeIn .5s 1s backwards;
+    opacity: 1;
+
+    & span {
+      color: var(--IYH-color);
+      animation: changeColor .5s 3s backwards;
+    }
+  }
+
+  & .CTA {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    animation: fadeIn .5s 3s backwards;
+    opacity: 1;
+
+    & a {
+      text-decoration: none;
+      color: var(--IYH-black);
+      padding: 0.7rem 1.5rem;
+      background-color: var(--IYH-color);
+      border-radius: 100px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0 0 10px;
+
+      &:first-of-type {
+        background-color: var(--IYH-white);
+        color: var(--IYH-color);
+      }
+
+    }
+  }
+}

@@ -5,6 +5,11 @@
   import FAQ from "./FAQ.svelte";
   import Form from "./Form.svelte";
   import Babysitters from "./Babysitters.svelte";
+
+  import "../components/CSS/Homepage.css"
+  import "../components/CSS/About.css"
+  import "../components/CSS/Babysitters.css"
+  
 </script>
 
 <main>
