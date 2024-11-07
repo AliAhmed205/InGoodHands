@@ -56,6 +56,15 @@
 
 }
 
+@keyframes scaling {
+  from {
+    scale: .8;
+  }
+  to {
+    scale: 1;
+  }
+}
+
 @keyframes slidingCarousel {
   from {
     transform: translateX(0);

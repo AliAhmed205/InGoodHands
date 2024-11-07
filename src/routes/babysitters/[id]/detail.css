@@ -204,7 +204,7 @@
 
         & button {
           background-color: var(--IYH-black);
-          color: var(--IYH-light-color);
+          color: var(--IYH-white);
           font-family: var(--logo-font);
           padding: 1rem 1.5rem;
           font-size: 1.3rem;
