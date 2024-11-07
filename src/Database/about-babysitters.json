@@ -12,47 +12,47 @@
     "totaalAantalReviews": 24,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": true,
-        "avond": false
+      "tue": {
+        "morning": true,
+        "noon": false,
+        "afternoon": true,
+        "evening": false
       },
-      "wo": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "wen": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": false
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": true,
-        "avond": false
+      "sun": {
+        "morning": true,
+        "noon": false,
+        "afternoon": true,
+        "evening": false
       }
     },
     "overMij": ["Ervaren met baby's en peuters", "Creatief met knutselactiviteiten", "Tweetalig (Nederlands en Engels)"],
@@ -78,47 +78,47 @@
     "totaalAantalReviews": 15,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "wen": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": false
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sun": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       }
     },
     "overMij": ["Actief en sportief", "Veel ervaring met buitenspelletjes", "Behulpzaam bij huiswerk"],
@@ -144,47 +144,47 @@
     "totaalAantalReviews": 30,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "mo": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "di": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "wen": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "do": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "thu": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "fri": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "za": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "sun": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       }
     },
     "overMij": ["Geduldig en betrouwbaar", "Specialist in gezonde snacks maken", "Goed met peuters en kleuters"],
@@ -210,47 +210,47 @@
     "totaalAantalReviews": 18,
     "gemiddeldeReviewScore": 3,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "wen": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "do": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": true
+      "thu": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": true
       },
-      "vrij": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": false
+      "fri": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": false
       },
-      "za": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "sat": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "zo": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "sun": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       }
     },
     "overMij": ["Rustig en betrouwbaar", "Helpt graag met huiswerk", "Tweetalig (Nederlands en Mandarijn Chinees)"],
@@ -276,47 +276,47 @@
     "totaalAantalReviews": 22,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": true
       },
-      "di": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": true
+      "wen": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": true
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": false
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "fri": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "za": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sun": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       }
     },
     "overMij": ["Creatief en vriendelijk", "Organiseert leuke knutselactiviteiten", "Goede communicator"],
@@ -342,47 +342,47 @@
     "totaalAantalReviews": 12,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "mo": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "di": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "wen": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": false
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": true
       },
-      "zo": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": false
+      "sun": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": false
       }
     },
     "overMij": ["Energieke spelletjes en buitenspelen", "Groot verantwoordelijkheidsgevoel", "Goed met oudere kinderen"],
@@ -408,47 +408,47 @@
     "totaalAantalReviews": 20,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "tue": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "wo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "wen": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "do": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "thu": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "sat": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "zo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sun": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       }
     },
     "overMij": ["Goed met kleuters", "Zorgzaam en geduldig", "Tweetalig (Nederlands en Spaans)"],
@@ -474,47 +474,47 @@
     "totaalAantalReviews": 14,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "tue": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "wo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "wen": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "vrij": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": false
+      "fri": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": false
       },
-      "za": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "sat": {
+        "morning": false,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "zo": {
-        "ochtend": false,
-        "middag": false,
-        "namiddag": true,
-        "avond": true
+      "sun": {
+        "morning": false,
+        "noon": false,
+        "afternoon": true,
+        "evening": true
       }
     },
     "overMij": ["Helpt graag met huiswerk", "Veel ervaring met jonge kinderen", "Groot verantwoordelijkheidsgevoel"],
@@ -539,47 +539,47 @@
     "totaalAantalReviews": 19,
     "gemiddeldeReviewScore": 5,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": false,
-        "avond": false
+      "mo": {
+        "morning": true,
+        "noon": true,
+        "afternoon": false,
+        "evening": false
       },
-      "di": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "tue": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       },
-      "wo": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "wen": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "do": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "thu": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "vrij": {
-        "ochtend": false,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": false,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": false,
-        "namiddag": false,
-        "avond": false
+      "sun": {
+        "morning": true,
+        "noon": false,
+        "afternoon": false,
+        "evening": false
       }
     },
     "overMij": ["Geduldig en vriendelijk", "Creatief met knutselen", "Geduldig met peuters"],
@@ -605,47 +605,47 @@
     "totaalAantalReviews": 13,
     "gemiddeldeReviewScore": 4,
     "beschikbaarheid": {
-      "ma": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "mo": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "di": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "tue": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "wo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "wen": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "do": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "thu": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "vrij": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "fri": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "za": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sat": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       },
-      "zo": {
-        "ochtend": true,
-        "middag": true,
-        "namiddag": true,
-        "avond": true
+      "sun": {
+        "morning": true,
+        "noon": true,
+        "afternoon": true,
+        "evening": true
       }
     },
     "overMij": ["Energiek en speels", "Sportief en actief", "Goed met kinderen van alle leeftijden"],
