@@ -79,7 +79,7 @@
     </section>
 
     <section class="detail-wrapper" id="detail-wrapper">
-      <a href="/babysitters"> <i class="fa-solid fa-arrow-left"></i> Terug naar de lijst</a>
+      <a href="/babysitters"> <i class="fa-solid fa-arrow-left"></i> Back to babysitters</a>
       <section class="detail one">
         <p><i class="fa-solid fa-thumbtack"></i> {babysitter.locatie}</p>
         <div class="star-container">
@@ -124,7 +124,7 @@
       
       <div class="babysitter-schedule">
         <table>
-          <caption> Beschikbaarheid </caption>
+          <caption> Available </caption>
           <thead>
             <tr>
               <th scope="col"></th>
@@ -135,10 +135,10 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Ochtend</th>
+              <th scope="row">Morning</th>
               {#each Object.keys(babysitter.beschikbaarheid) as dag}
                 <td>
-                  {#if babysitter.beschikbaarheid[dag].ochtend}
+                  {#if babysitter.beschikbaarheid[dag].morning}
                     <i class="fa-solid fa-circle"></i>
                   {:else}
                     <i class="fa-regular fa-circle"></i>
@@ -147,10 +147,10 @@
               {/each}
             </tr>
             <tr>
-              <th scope="row">Middag</th>
+              <th scope="row">Noon</th>
               {#each Object.keys(babysitter.beschikbaarheid) as dag}
                 <td>
-                  {#if babysitter.beschikbaarheid[dag].middag}
+                  {#if babysitter.beschikbaarheid[dag].noon}
                     <i class="fa-solid fa-circle"></i>
                   {:else}
                     <i class="fa-regular fa-circle"></i>
@@ -159,10 +159,10 @@
               {/each}
             </tr>
             <tr>
-              <th scope="row">Namiddag</th>
+              <th scope="row">Afternoon</th>
               {#each Object.keys(babysitter.beschikbaarheid) as dag}
                 <td>
-                  {#if babysitter.beschikbaarheid[dag].namiddag}
+                  {#if babysitter.beschikbaarheid[dag].afternoon}
                     <i class="fa-solid fa-circle"></i>
                   {:else}
                     <i class="fa-regular fa-circle"></i>
@@ -171,10 +171,10 @@
               {/each}
             </tr>
             <tr>
-              <th scope="row">Avond</th>
+              <th scope="row">Evening</th>
               {#each Object.keys(babysitter.beschikbaarheid) as dag}
                 <td>
-                  {#if babysitter.beschikbaarheid[dag].avond}
+                  {#if babysitter.beschikbaarheid[dag].evening}
                     <i class="fa-solid fa-circle"></i>
                   {:else}
                     <i class="fa-regular fa-circle"></i>
@@ -185,7 +185,7 @@
           </tbody>
         </table>
         <button on:click={() => window.location.href = `/babysitters/${babysitter.id}/form`}>
-          <i class="fa-solid fa-baby"></i> Boek {babysitter.naam}
+          <i class="fa-solid fa-baby"></i> Book {babysitter.naam} now
         </button>
       </div>
     </section>
