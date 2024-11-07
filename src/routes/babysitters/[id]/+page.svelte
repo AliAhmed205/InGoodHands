@@ -184,7 +184,9 @@
             </tr>
           </tbody>
         </table>
-        <button> <i class="fa-solid fa-baby"></i> Contact {babysitter.naam}</button>
+        <button on:click={() => window.location.href = `/babysitters/${babysitter.id}/form`}>
+          <i class="fa-solid fa-baby"></i> Boek {babysitter.naam}
+        </button>
       </div>
     </section>
   </section>
