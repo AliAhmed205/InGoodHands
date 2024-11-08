@@ -1,17 +1,24 @@
-<h6>Developed with: Svelte. I created this project to practice routing and complex data.</h6>
+<h6>Developed with: Svelte. I created this project to practice routing, complex data and adding data.</h6>
 <h5>This project was developed for my own personal educational growth</h5>
 
 <img src="https://github.com/user-attachments/assets/f87b48f0-90c1-4328-be7c-bc8a026211cf" alt="In Good Hands logo">
 
-<img width="1512" alt="Scherm­afbeelding 2024-11-07 om 22 04 48" src="https://github.com/user-attachments/assets/aa338f97-eaeb-4f31-acee-d1ea71a23402">
-
-
 <b>In Good Hands</b> is an online babysitting service made to help parents find trustworthy, caring babysitters quickly and easily. We know how important it is to feel confident about who’s watching your kids, so we focus on safety, reliability, and quality care. With In Good Hands, you can relax knowing your family is in caring, capable hands.
+
+<img width="1512" alt="Scherm­afbeelding 2024-11-07 om 22 04 48" src="https://github.com/user-attachments/assets/aa338f97-eaeb-4f31-acee-d1ea71a23402">
+<img src="https://github.com/user-attachments/assets/1bcac391-5feb-4b6f-9e6f-8cbcddfba039" alt="In Good Hands Babysitter page">
+
+<p>Our goal is to make finding the right babysitter as simple and reassuring as possible. Browse the list, check out their ratings, and feel confident knowing each babysitter is pre-screened and rated by families like yours. Happy searching!</p>
+
+<img width="1499" alt="Scherm­afbeelding 2024-11-08 om 06 35 34" src="https://github.com/user-attachments/assets/9ff03099-c11d-4c1b-a2aa-3c6736884fa9">
+
 
 <img src="https://github.com/user-attachments/assets/14e08afe-4ba6-4fda-ade6-075af21c1790" alt="Technologies Used">
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></p>
+
+
 
 
 <img src="https://github.com/user-attachments/assets/57f97bd9-d0cb-4cf1-8ddd-98470d41af21" alt="Features">
@@ -26,6 +33,8 @@
 ## <img src="https://github.com/user-attachments/assets/0f2ea8c3-dd99-43de-b621-cf1914d34e62" alt="Installation">
 
 <p>Feel free to install the project. Here's a stepy by step guide to do so.</p>
+
+
 
 <img width="250" src="https://github.com/user-attachments/assets/511612ee-13e8-4148-b9ae-e9076306d573" alt="Clone the repository">
 
