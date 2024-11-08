@@ -44,7 +44,7 @@
               <p>{babysitter.locatie}</p>
               <p>
                 {babysitter.gemiddeldeReviewScore}
-                <i class="fa-solid fa-star"></i> gemiddeld
+                <i class="fa-solid fa-star"></i> Average
               </p>
             </a>
           </li>
